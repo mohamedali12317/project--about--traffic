@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="traffic.css">
+</head>
+<body>
+    <button onclick="settings ()" id="settings">settings</button>
+    <div id="hideshow" style="display: initial; margin: -415px; transition: 0.4s ease-in-out;">
+        <button onclick="back()" id="back">back</button>
+        <button onclick="show()" id="show">show traffic light </button>
+        <button  onclick="hide()" id="hide">hide traffic light</button>
+    </div>
+    
+    
+    <div id="dad">
+    <div id="container">
+        <div>
+        <table id="table">
+            <tr>
+            <th style="text-align: -webkit-center;"><button onclick="redon()" style="padding: 4px 15px; color: red;" id="redon">red turn on</button></th>
+            <td style="text-align: -webkit-center;"><button onclick="redoff()" style="padding: 4px 15px; color: red;" id="redoff">red turn off</button></td>
+            </tr>
+            <tr>
+            <th><button  onclick="yellowon ()" style="color: #c5c535; border: #98a23dd4 1px solid;" id="yellowon">yellow turn on</button></th>
+            <td><button  onclick="yellowoff ()" style="color: #c5c535; border: #98a23dd4 1px solid;" id="yellowoff">yellow turn off</button></td>
+            </tr>
+            <tr>
+                <th><button onclick="greenon ()" style="padding: 2px 7px; color: green;" id="greenon">green turn on</button></th>
+                <td style="text-align: -webkit-center;"><button onclick="greenoff ()" style="padding: 2px 7px; color: green;" id="greenoff">green turn off</button></td>
+            </tr>
+        </table>
+    </div>
+        <div id="red"></div>
+        <div id="redd"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+        <div id="black"></div>
+    </div>
+</div>
+    
+    <script>
+        function redon(){
+            document.getElementById('red').style.backgroundColor='red'
+           
+        }
+        function redoff (){
+            document.getElementById('red').style.backgroundColor='#ff000040'
+        }
+        function yellowon(){
+            document.getElementById('yellow').style.backgroundColor='#cbde30'
+        }
+        function yellowoff(){
+            document.getElementById('yellow').style.backgroundColor='#cbde3024'
+        }
+        function greenon (){
+            document.getElementById('green').style.backgroundColor='#12ce20'
+       }
+       function greenoff (){
+           document.getElementById('green').style.backgroundColor='#12ce2024'
+       }
+       function settings(){     
+          document.getElementById('hideshow').style.margin='9px'
+       }
+       function back (){
+           document.getElementById('hideshow').style.margin='-415px'
+       }
+       function show (){
+        //  document.getElementById('container').style.left='-2'
+        document.getElementById('container').style.left='437px'
+       }
+       function hide (){
+        //  document.getElementById('container').style.left='-350px'  
+        document.getElementById('container').style.left='-351px'
+      
+       }
+       
+
+    </script>
+</body>
+</html>

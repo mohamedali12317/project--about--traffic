@@ -1,0 +1,130 @@
+#container{
+    width: 74px;
+    height: 185px;
+    background-color: black;
+    padding: 10px;
+    margin-left: 246px;
+    position: relative;
+    left: -350px;
+    margin-top: 9px;
+    transition: 0.8s ease-in-out;
+
+
+    /* left: 50px; */
+    /* margin-left: 667px; */
+}
+#red{
+    position: absolute;
+    background-color: #ff000040;
+    width: 51px;
+    height: 50px;
+    margin-left: 13px;
+    border-radius: 33px;
+}
+#yellow{
+    position: absolute;
+    background-color: #cbde3024;
+    width: 51px;
+    height: 50px;
+    margin: 67px 13px;
+    border-radius: 33px;
+}
+#green{
+    position: absolute;
+    background-color:#12ce2024;
+    width: 51px;
+    height: 50px;
+    border-radius: 33px;
+    margin: 133px 13px;
+}
+#black{
+    height: 123px;
+    width: 21px;
+    background-color: rgb(2 2 2);
+    margin: 194px 25px;
+}
+table,th,td{
+    border: #1a7ce07d 1px solid;
+}
+#table{
+    top: 10px;
+    position: absolute;
+    left: -252px;
+
+}
+#redon{
+    padding: 4px 15px;
+    color: red;
+    background-color: #fb121233;
+    border: #e46363 1px solid;
+    outline: none;
+}
+#redoff{
+    background-color: #fb121233;
+    padding: 4px 15px;
+    color: red;
+    border: #e46363 1px solid;
+    outline: none;
+}
+#yellowon{
+    color: #ecec26;
+    background-color: #1207135c;
+    border: #98a23dd4 1px solid;
+    outline: none;
+}
+#yellowoff{
+    color: #ecec26;
+    background-color: #1207135c;
+    outline: none;
+    border: #98a23dd4 1px solid;
+}
+#greenon{
+    padding: 2px 7px;
+    color: green;
+    background-color: #abc5ab;
+    border: #62ab34 1px solid;
+    outline: none;
+}
+#greenoff{
+    padding: 2px 7px;
+    color: green;
+    background-color: #abc5ab;
+    outline: none;
+    border: #62ab34 1px solid;
+}
+#settings{
+    color: white;
+    background: #ff7070;
+    border-radius: 16px;
+    width: 106px;
+    height: 38px;
+    outline: solid 11px;
+}
+#back{
+    background: #7ca8d6;
+    color: white;
+    width: 67px;
+    border-radius: 61px;
+    height: 25px;
+    outline: solid;
+}
+#show{
+    background: #7ca8d6;
+    color: white;
+    outline: solid;
+    border-radius: 13px;
+    height: 23px;
+}
+#hide{
+    background: #7ca8d6;
+    color: white;
+    outline: solid;
+    border-radius: 9px;
+    height: 23px;
+}
+#dad{
+    background: #f1f1f180;
+    height: 330px;
+}
+
+    
